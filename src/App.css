@@ -176,3 +176,13 @@
   display: grid;
   gap: 1rem;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10vw;
+}
+.header > h1 {
+  max-width: 50%;
+}
